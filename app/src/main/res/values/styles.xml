@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <style name="TextAppearance.AppCompat.LoginTitle">
+        <item name="fontFamily">@font/sen_bold</item>
+        <item name="android:textSize">30sp</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+    <style name="TextAppearance.AppCompat.LoginTitle.Subtitle">
+        <item name="fontFamily">@font/sen</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+    <style name="TextAppearance.AppCompat.EditTitle">
+        <item name="android:textColor">#32343E</item>
+        <item name="android:textSize">13sp</item>
+        <item name="fontFamily">@font/sen</item>
+    </style>
+    <style name="TextAppearance.AppCompat.EditText">
+        <item name="android:paddingHorizontal" tools:ignore="NewApi">20dp</item>
+        <item name="singleLine">true</item>
+        <item name="android:textColor">#32343E</item>
+        <item name="android:textColorHint">#A0A5BA</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:background">@drawable/back_edit_login</item>
+        <item name="fontFamily">@font/sen</item>
+        <item name="android:layout_height">60dp</item>
+    </style>
+    <style name="TextAppearance.AppCompat.EditText.Email">
+        <item name="android:inputType">textEmailAddress</item>
+        <item name="android:hint">example@gmail.com</item>
+    </style>
+    <style name="TextAppearance.AppCompat.EditText.Password">
+        <item name="android:inputType">textPassword</item>
+        <item name="android:hint">* * * * * * * * * *</item>
+        <item name="android:paddingEnd">55dp</item>
+    </style>
+    <style name="TextAppearance.AppCompat.EditText.Name">
+        <item name="android:inputType">text</item>
+        <item name="android:hint">John Smith</item>
+    </style>
+    <style name="TextAppearance.AppCompat.PasswordEye">
+        <item name="android:layout_width">40dp</item>
+        <item name="android:layout_height">40dp</item>
+        <item name="android:layout_gravity">center_vertical</item>
+        <item name="android:layout_marginStart">-50dp</item>
+        <item name="android:background">@android:color/transparent</item>
+        <item name="android:contentDescription">PasswordVisibleEye</item>
+    </style>
+    <style name="TextAppearance.AppCompat.EditTextCode">
+        <item name="fontFamily">@font/sen_bold</item>
+        <item name="android:maxLength">1</item>
+        <item name="android:inputType">number</item>
+        <item name="android:paddingHorizontal" tools:ignore="NewApi">25dp</item>
+        <item name="android:textColor">#32343E</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:imeOptions">actionNext</item>
+        <item name="android:background">@drawable/back_edit_login</item>
+        <item name="android:layout_width">60dp</item>
+        <item name="android:layout_height">60dp</item>
+    </style>
+    <style name="TextAppearance.AppCompat.OrangeButton">
+        <item name="android:layout_height">62dp</item>
+        <item name="android:background">@drawable/login_button</item>
+        <item name="fontFamily">@font/sen_bold</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+    <style name="SearchBarTheme" parent="Widget.AppCompat.SearchView">
+        <item name="android:fontFamily">@font/sen</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColorHint">#676767</item>
+        <item name="android:editTextColor">#32343E</item>
+    </style>
+</resources>
